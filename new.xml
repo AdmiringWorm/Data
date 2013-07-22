@@ -188,5 +188,45 @@
     </version>
   </game>
 -->
+
+
+  <game name="AlterEgo">
+    <title>Alter Ego</title>
+    <version os="Windows">
+      <locations>
+        <path ev="steamcommon" path="Alter Ego"/>
+        <registry root="local_machine" key="SOFTWARE\viva media\alter ego us" value="installfolder"/>
+      </locations>
+      <files>
+        <include path="saves" filename="*.egs"/>
+      </files>
+      <files type="Settings">
+        <include path="saves" filename="options" />
+      </files>
+      <linkable />
+      <contributor>AdmiringWorm</contributor>
+    </version>
+  </game>
+  
+  <game name="LostHorizon" added="1955-11-05T00:00:00" updated="1955-11-05T00:00:00">
+    <title>Lost Horizon</title>
+    <version os="Windows">
+      <locations>
+        <path ev="userdocuments" path="Lost Horizon" />
+      </locations>
+      <files>
+        <include>
+          <exclude filename="*.ini"/>
+        </include>
+      </files>
+      <files type="Settings">
+        <include filename="*.ini" />
+      </files>
+      <contributor>Arc Angel</contributor>
+      <contributor>AdmiringWorm</contributor>
+    </version>
+  </game>
+  
+  
 </programs>
 
