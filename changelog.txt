@@ -4,6 +4,50 @@ Games to look into: DiRT, The PATH
 * Steam pipe games
 
 =Upcoming=
+=2/24/2014=
+New Games
+* Air Forte
+* Anomaly Korea
+* Anomaly 2
+* Bad Hotel - Steam Only
+* Broken Age
+* Deus Ex: Human Revolution Director's Cut
+* Sentinel 3: Homeworld
+* Ricochet
+* Sanctum 2
+
+* Brothers: A Tale of Two Sons - Contributed by Scandalon
+
+* Shadowrun Returns - Contributed by Feline_Quota
+* The King Of Fighters XIII - Steam only - Contributed by Feline_Quota
+* Zeus: Master of Olympus - Contributed by beppe9000
+
+Contributed by Arc Angel:
+* Battlefield 4
+* Call of Duty: Ghosts - Steam only
+* Deadfall Adventures - Steam only
+
+Updated for SteamPipe:
+* Counter-Strike: Condition Zero: Deleted Scene
+* Deathmatch Classic
+* Half-Life: Blue Shift
+* Half-Life: Opposing Force
+* Half-Life: Source
+* Half-Life Deathmatch: Source
+* Half-Life 2: Episode One
+* Half-Life 2: Episode Two
+* Half-Life 2: Lost Coast 
+* SiN
+* Team Fortress Classic
+
+Updated
+* Descent - Added Steam path
+* Final Fantasy VII - Added Steam path
+* Final Fantasy VIII - Added Steam path
+* Left 4 Dead and Left 4 Dead to handle multiple languages
+* System Shock 2 - Added Steam path
+
+=2014-01-28=
 * Long Live The Queen
 * Papers, Please
 * Updated Half-Life 2 for SteamPipe

@@ -3,6 +3,7 @@
   xsi:noNamespaceSchemaLocation="GameSaveInfo202.xsd"
   majorVersion="2" minorVersion="0" revision="2" updated="2011-12-25T00:00:00">
 
+
   <!-- 	Staging file for the adding of entries.
     If you are modifying an existing entry, copy-paste the entire entry into this file
     so that the update system can automatically change the update time
@@ -18,17 +19,17 @@
     <title></title>
     <version os="Windows">
       <locations>
-        <path ev path="" />
-        <registry root="local_machine" key="" value="" />
+        <path ev path=""/>
+        <registry root="local_machine" key="" value=""/>
       </locations>
       <files>
         <include />
       </files>
-      <linkable />
+      <linkable/>
       <contributor></contributor>
     </version>
   </game>
-
+  
   These are entries that need further review before being added
    <game name="ThePath">
     <title>The Path</title>
@@ -45,6 +46,7 @@
     </version>
   </game>
 
+  
     <game name="AgeOfEmpiresOnline">
     <title>Age of Empires Online</title>
     <version os="Windows">
@@ -58,7 +60,7 @@
       <contributor>GameSaveManager</contributor>
     </version>
   </game>
-
+  
     <game name="AlexanderTheGreat">
     <title>Alexander the Great</title>
     <version os="Windows">
@@ -95,7 +97,7 @@
       <contributor>GameSaveManager</contributor>
     </version>
   </game>
-
+  
     <game name="Godfather">
     <title>The Godfather</title>
     <version os="Windows">
@@ -246,3 +248,4 @@
   
 </programs>
 
+</programs>
