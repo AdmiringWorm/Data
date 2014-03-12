@@ -202,7 +202,7 @@
       <files type="Settings">
         <include path="saves" filename="options" />
       </files>
-      <linkable />
+      <linkable path="saves" />
       <contributor>AdmiringWorm</contributor>
     </version>
   </game>
