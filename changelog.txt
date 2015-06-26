@@ -4,6 +4,29 @@ Games to look into: DiRT, The PATH
 * Steam pipe games
 
 =Upcoming=
+Contributed By AdmiringWorm
+* Age of Empires - Added missing files to save
+* ALLTYNEX Second
+* Alter Ego
+* Anno 1404 - Added alternative save location
+* Aura Kingdom - Only Settings
+* Car Mechanic Simulator 2014
+* Car Mechanic Simulator 2015
+* Civilization 5 - Added Settings type
+* Euro Truck Simulator - Added a savegames folder
+* Freight Tycoon Inc.
+* Game Dev Tycoon - Added alternative save location
+* HuniePop
+* Jolly Rover
+* Lost Horizon - Added Settings file
+* The Raven - Legacy of a Master Thief
+* Rime Berta
+* StreetHacker
+* This War Of Mine
+* Without Within
+* The Wolf Among Us
+
+
 =2/24/2014=
 New Games
 * Air Forte
@@ -78,10 +101,7 @@ Contributed by Anonymous Hero
 * Petz Horse Club
 * Saddle Up: Time To Ride
 
-Contributed By AdmiringWorm
-* Alter Ego
-* Lost Horizon - Added Settings file
-* The Wolf Among Us
+
 =2013-06-15=
 * Voxatron
 Contributed By Scandalon

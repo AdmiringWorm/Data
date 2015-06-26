@@ -188,6 +188,43 @@
   </game>
 -->
 
+  <game name="AgeOfEmpires" added="2012-09-12T14:11:29" updated="2012-09-12T14:11:29">
+    <title>Age of Empires</title>
+    <version os="Windows">
+      <locations>
+        <registry root="local_machine" key="SOFTWARE\Microsoft\DirectPlay\Applications\Age of Empires" value="Path"/>
+        <registry root="local_machine" key="SOFTWARE\Microsoft\Games\Age of Empires\1.00" value="InstallationDirectory"/>
+      </locations>
+      <files>
+        <include filename="empires.GID"/>
+        <include filename="game2.nfo"/>
+		<include filename="game0.nfo" />
+		<include path="scenario" filename="scenario.inf" />
+        <include path="savegame"/>
+		<include path="learn" />
+      </files>
+      <linkable path="savegame"/>
+	  <linkable path="learn" />
+	  <contributor>AdmiringWorm</contributor>
+      <contributor>GameSaveManager</contributor>
+    </version>
+  </game>
+
+  <game name="ALLTYNEXSecond">
+    <title>ALLTYNEX Second</title>
+    <version os="Windows">
+      <locations>
+        <path ev="appdata" path="SITER SKAIN\ALLTYNEX Second"/>
+      </locations>
+      <files>
+        <include filename="*.sav"/>
+      </files>
+      <files type="Settings">
+        <include filename="AlltynexSecond.ini"/>
+      </files>
+      <contributor>AdmiringWorm</contributor>
+    </version>
+  </game>
 
   <game name="AlterEgo">
     <title>Alter Ego</title>
@@ -203,6 +240,184 @@
         <include path="saves" filename="options" />
       </files>
       <linkable path="saves" />
+      <contributor>AdmiringWorm</contributor>
+    </version>
+  </game>
+  
+  <game name="Anno1404" added="1955-11-05T00:00:00" updated="1955-11-05T00:00:00">
+    <title>Anno 1404</title>
+    <version os="Windows">
+      <locations>
+	    <path ev="appdata" path="Ubisoft\Anno1404" />
+        <path ev="userdocuments" path="Anno 1404"/>
+      </locations>
+      <files>
+        <include path="Savegames"/>
+		<include path="Profiles"/>
+      </files>
+      <linkable/>
+      <contributor>AdmiringWorm</contributor>
+      <contributor>Caleb Love</contributor>
+    </version>
+  </game>
+
+  <game name="AuraKingdom">
+    <title>Aura Kingdom</title>
+    <version os="Windows">
+      <locations>
+        <path ev="steamcommon" path="Aura Kingdom"/>
+      </locations>
+      <files type="Settings">
+        <include path="UserSetting" />
+        <include filename="client.ini"/>
+        <include filename="LauncherMod.ini"/>
+      </files>
+      <linkable path="UserSetting"/>
+      <contributor>AdmiringWorm</contributor>
+    </version>
+    <comment>Settings only</comment>
+  </game>
+  
+  <game name="CarMechanicSimulator2014">
+    <title>Car Mechanic Simulator 2014</title>
+    <version os="Windows">
+      <locations>
+        <path ev="userprofile" path="AppData\LocalLow\Red Dot Games\Car Mechanic Simulator"/>
+      </locations>
+      <files>
+        <include/>
+      </files>
+      <linkable/>
+      <contributor>AdmiringWorm</contributor>
+    </version>
+  </game>
+
+  <game name="CarMechanicSimulator2015">
+    <title>Car Mechanic Simulator 2015</title>
+    <version os="Windows">
+      <locations>
+        <path ev="userprofile" path="AppData\LocalLow\Red Dot Games\Car Mechanic Simulator 2015"/>
+      </locations>
+      <files>
+        <include/>
+      </files>
+      <linkable/>
+      <contributor>AdmiringWorm</contributor>
+    </version>
+    <comment>Do not enable monitoring as this may crash the game</comment>
+  </game>
+  
+  <game name="Civilization5" follows="Civilization4" added="1955-11-05T00:00:00" updated="1955-11-05T00:00:00">
+    <title>Sid Meier's Civilization V</title>
+    <version platform="SteamCloud">
+      <locations>
+        <path ev="steamuserdata" path="8930"/>
+      </locations>
+      <files>
+        <include/>
+      </files>
+      <contributor>GameSave.Info</contributor>
+    </version>
+    <version os="Windows">
+      <locations>
+        <path ev="userdocuments" path="My Games\Sid Meier's Civilization 5"/>
+      </locations>
+      <files>
+        <include path="ModdedSaves"/>
+        <include path="Saves"/>
+      </files>
+	  <files type="Settings">
+	    <include filename="*.ini" />
+	  </files>
+      <linkable/>
+	  <contributor>AdmiringWorm</contributor>
+      <contributor>GameSave.Info</contributor>
+    </version>
+  </game>
+  
+  <game name="EuroTruckSimulator2" added="2013-02-03T05:40:17" updated="2013-02-03T05:40:17">
+    <title>Euro Truck Simulator 2</title>
+	<version os="Windows">
+      <locations>
+        <path ev="userdocuments" path="Euro Truck Simulator 2"/>
+      </locations>
+      <files>
+        <include path="profiles"/>
+        <!-- Legacy folder -->
+        <include path="profile" />
+      </files>
+      <files type="Settings">
+        <include filename="*.cfg"/>
+      </files>
+      <linkable/>
+      <contributor>AdmiringWorm</contributor>
+    </version>
+  </game>
+
+  <game name="FreightTycoonInc">
+    <title>Freight Tycoon Inc.</title>
+    <version os="Windows">
+      <locations>
+        <path ev="userdocuments" path="nikita\tracktycoon"/>
+      </locations>
+      <files>
+        <include/>
+      </files>
+      <linkable/>
+      <contributor>AdmiringWorm</contributor>
+    </version>
+  </game>
+  
+  <game name="GameDevTycoon" added="2013-06-14T05:17:42" updated="2013-06-14T05:17:42">
+    <title>Game Dev Tycoon</title>
+    <version os="Windows">
+      <locations>
+        <path ev="localappdata" path="Game Dev Tycoon"/>
+		<path ev="localappdata" path="Game Dev Tycoon - Steam" />
+      </locations>
+      <files>
+        <include path="Local Storage"/>
+      </files>
+      <linkable/>
+	  <contributor>AdmiringWorm</contributor>
+      <contributor>GameSaveManager</contributor>
+    </version>
+	<version platform="SteamCloud">
+	  <locations>
+	    <path ev="steamuserdata" path="239820" />
+	  </locations>
+	  <files>
+	    <include />
+	  </files>
+	  <linkable />
+	  <contributor>AdmiringWorm</contributor>
+	</version>
+  </game>
+  
+  <game name="HuniePop">
+    <title>HuniePop</title>
+	<version os="Windows">
+	  <locations>
+	    <path ev="userprofile" path="AppData\LocalLow\HuniePot" />
+	  </locations>
+	  <files>
+	    <include />
+	  </files>
+	  <linkable/>
+	  <contributor>AdmiringWorm</contributor>
+	</version>
+  </game>
+
+  <game name="JollyRover">
+    <title>Jolly Rover</title>
+    <version platform="SteamCloud">
+      <locations>
+        <path ev="steamuserdata" path="58220"/>
+      </locations>
+      <files>
+        <include/>
+      </files>
+      <linkable/>
       <contributor>AdmiringWorm</contributor>
     </version>
   </game>
@@ -226,6 +441,92 @@
     </version>
   </game>
 
+  <game name="RavenLegacyOfMasterThief">
+    <title>The Raven - Legacy of a Master Thief</title>
+    <version platform="SteamCloud">
+      <locations>
+        <path ev="steamuserdata" path="233370"/>
+      </locations>
+      <files>
+        <include/>
+      </files>
+      <linkable/>
+      <contributor>AdmiringWorm</contributor>
+    </version>
+  </game>
+
+  <game name="RimeBerta">
+    <title>Rime Berta</title>
+    <version os="Windows">
+      <locations>
+        <path ev="appdata" path="NEXT-SOFT+\RimeBerta"/>
+      </locations>
+      <files>
+        <include filename="*">
+          <exclude filename="config.dat"/>
+        </include>
+      </files>
+      <files type="Settings">
+        <include filename="config.dat"/>
+      </files>
+      <contributor>AdmiringWorm</contributor>
+    </version>
+  </game>
+  
+  <game name="StreetHacker">
+    <title>StreetHacker</title>
+    <version os="Windows">
+      <locations>
+        <path ev="userdocuments" path="my games\StreetHacker"/>
+      </locations>
+      <files>
+        <include path="Database">
+          <!-- Unsure if this exclusion is needed, including since the size may become considerably high -->
+          <exclude path="Database\Backups"/>
+        </include>
+      </files>
+      <contributor>AdmiringWorm</contributor>
+    </version>
+  </game>
+
+  <game name="ThisWarOfMine">
+    <title>This War Of Mine</title>
+    <version os="Windows">
+      <locations>
+        <path ev="appdata" path="11bitstudios\This War Of Mine"/>
+      </locations>
+      <files>
+        <include/>
+      </files>
+      <linkable/>
+      <contributor>AdmiringWorm</contributor>
+    </version>
+    <version platform="SteamCloud">
+      <locations>
+        <path ev="steamuserdata" path="282070"/>
+      </locations>
+      <files>
+        <include/>
+      </files>
+      <linkable/>
+      <contributor>AdmiringWorm</contributor>
+    </version>
+  </game>
+
+  <game name="WithoutWithin">
+    <title>Without Within</title>
+    <version os="Windows">
+      <locations>
+        <path ev="appdata" path="RenPy\without-within-1409958485"/>
+      </locations>
+      <files>
+        <include/>
+      </files>
+      <linkable/>
+      <contributor>AdmiringWorm</contributor>
+    </version>
+  </game>
+
   <game name="WolfAmongUs">
     <title>The Wolf Among Us</title>
     <version os="Windows">
@@ -243,9 +544,7 @@
       <linkable />
       <contributor>AdmiringWorm</contributor>
     </version>
-    <comment>This game is automatically synchronized with Steam if it is installed through Steam.</comment>
+    <comment>These saves is automatically synchronized with Steam if steam synchronization is enabled.</comment>
   </game>
   
-</programs>
-
 </programs>
